@@ -11,6 +11,7 @@ max-width: 1170px;
 
 [class*="col-"] {
     float: left;
+    height: 100px;
 }
 
 .col-1 {
@@ -107,4 +108,20 @@ margin-left: calc((100% / 12) * 10);
 
 .col-offset-11 {
 margin-left: calc((100% / 12) * 11);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
 }
